@@ -14,7 +14,7 @@ function terbesarTerkecil($inputArr) {
         }
     }
         
-    $output[0] = [$min, $max];
+    $output = [$min, $max];
     return $output;
 }
 
